@@ -10,17 +10,16 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
     <header class="p-5 mb-4 bg-info">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A daily calendar for your day</p>
+      <h1 class="display-3">Work Day Schedule Dashboard</h1>
       <p id="currentDay" class="lead"></p>
       <h2>
         Current Date: 
@@ -29,7 +28,7 @@
     </header>
 
     <div class="timeSpace">
-      <div id="hour_9" class="row time-block bg-info">
+      <div id="hour_9" class="row time-block">
           <div class="col-md-1 hour">
               9:00am
           </div>
@@ -38,7 +37,7 @@
           <button class="btn saveBtn col-md-1"><i class="fas fa-save">Save</i></button>
       </div>
 
-      <div id="hour_10" class="row time-block bg-info">
+      <div id="hour_10" class="row time-block ">
           <div class="col-md-1 hour">
               10:00am
           </div>
@@ -47,7 +46,7 @@
           <button class="btn saveBtn col-md-1"><i class="fas fa-save">Save</i></button>
       </div>
 
-      <div id="hour_11" class="row time-block bg-info">
+      <div id="hour_11" class="row time-block ">
           <div class="col-md-1 hour">
               11:00am
           </div>
@@ -56,7 +55,7 @@
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i>Save</button>
       </div>
 
-      <div id="hour_12" class="row time-block bg-info">
+      <div id="hour_12" class="row time-block">
           <div class="col-md-1 hour">
               12:00pm
           </div>
@@ -65,7 +64,7 @@
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i>Save</button>
       </div>
 
-      <div id="hour_13" class="row time-block bg-info">
+      <div id="hour_13" class="row time-block">
           <div class="col-md-1 hour">
               1:00pm
           </div>
@@ -74,7 +73,7 @@
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i>Save</button>
       </div>
 
-      <div id="hour_14" class="row time-block bg-info">
+      <div id="hour_14" class="row time-block">
           <div class="col-md-1 hour">
               2:00pm
           </div>
@@ -83,7 +82,7 @@
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i>Save</button>
       </div>
 
-      <div id="hour_15" class="row time-block bg-info">
+      <div id="hour_15" class="row time-block">
           <div class="col-md-1 hour">
               3:00pm
           </div>
@@ -92,7 +91,7 @@
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i>Save</button>
       </div>
 
-      <div id="hour_16" class="row time-block bg-info">
+      <div id="hour_16" class="row time-block">
           <div class="col-md-1 hour">
               4:00pm
           </div>
@@ -101,7 +100,7 @@
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i>Save</button>
       </div>
 
-      <div id="hour_17" class="row time-block bg-info">
+      <div id="hour_17" class="row time-block">
           <div class="col-md-1 hour">
               5:00pm
           </div>
@@ -114,6 +113,6 @@
       <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
       <script>dayjs().format()</script>
 
-    <script src="assets/scheduler.js"></script>
+    <script src="script.js"></script>
   </body>
 </html> 
